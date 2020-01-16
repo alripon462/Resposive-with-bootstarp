@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-style: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+header{
+    background: url('../img/banner.png') center top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg-light{
+    background-color: #b17d2f00!important;
+}
+.navbar-brand{
+
+    padding-top: 65px;
+
+}
+.navbar-nav{
+
+    padding-top: 65px;
+    margin-left: 270px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fdfdfd;
+    font-size: 20px;
+    padding: 18px 65px 0px 0px;
+    
+}
+
+.banner-contant{
+    width: 55%;
+    color: white;
+}
+
+.banner-contant p{
+    font-size: 15px;width: 85%;
+    display: inline-block;
+    padding-top: 30px;
+}
+
+
+.phone-number{
+
+    font-size: 44px;
+    background-color: #221d1d87;
+    margin-top: 142px;
+    display: inline-block;
+    padding: 20px 60px 20px 50px;
+}
+
+.btn-box{
+    padding-top: 88px;
+    padding-bottom: 150px;
+}
+
+.btn-banner{
+
+    color: white;
+    border: 2px solid #fff;
+    padding: 25px 105px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin-bottom: 100px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.crash-section{
+    padding-top: 80px;
+    padding-bottom: 60px;
+    background-color: #f6f6f6;
+    position: relative;
+}
+.crash-section h2{
+    font-weight: 600;
+    font-size: 32px
+}
+.crash-section span{
+    display: inline-block;
+    background: #111;
+    height: 2px;
+    width: 20px;
+}
+.crash-section p{
+    margin: 10px 0;
+    font-weight: 400;
+}
+.crash-section .style{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    -webkit-transform: rotate(45deg);
+            transform: rotate(45deg);
+    height: 40px;
+    width: 40px;
+    background: #f6f6f6;
+}
+
+.car-section{
+    background-color: #28282e;
+    color: #fff;
+}
+.car-section h2{
+    font-size: 32px;
+    font-weight: 500;
+}
+.car-section span{
+    display: inline-block;
+    background: #fff;
+    height: 2px;
+    width: 20px;
+}
+.car-section p{
+    margin: 15px 0;
+    font-size: 16px;
+    line-height: 25px;
+}
+.car-section .btn-car{
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.black-car-section{
+    padding-top: 220px;
+    padding-bottom: 105px;
+    background: #28282e;
+    color: white;
+}
+.black-car-section h2{
+    font-weight: 600;
+    font-size: 39px;
+    color: white;
+}
+
+.black-car-section span{
+    display: inline-block;
+    background: white;
+    height: 2px;
+    width: 20px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+
+.btn-last{
+    padding-top: 75px;
+    padding-bottom: 145px;
+}
+
+.btn-banner-one{
+    color: white;
+    border: 2px solid #fff;
+    padding: 25px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: .6s;
+}
+
+.banner-contant span{
+
+    display: inline-block;
+    background: white;
+    height: 2px;
+    width: 20px;
+    margin-top: 30px;
+}
+footer{
+    background-color: #ee493f;
+    padding: 40px 0px;
+
+}
+
+footer span{
+
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-weight: 500;
+}
+
+/* ----Media Query----*/
+
+/* Mobile Device*/
+@media(min-width: 0px) and (max-width: 500px)
+{
+   
+
+}
+
+
+/* Small Device*/
+@media(min-width: 501px) and (max-width: 768px)
+{
+    
+
+/* Laptop Device Desktop,Laptop,Notebook*/
+@media(min-width:768.01px) and (max-width: 1200px)
+{
+    
+}
+
+/* Large Device*/
+@media(min-width: 1200.01px)
+{
+    
+}
